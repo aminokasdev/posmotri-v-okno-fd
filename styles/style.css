@@ -58,7 +58,7 @@ ol {
   flex-direction: row;
   align-items: flex-end;
   gap: 30px;
-  max-width: 1140px;
+  width: 1140px;
 }
 
 .result {
@@ -89,8 +89,10 @@ ol {
 
 .content__list-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   height: 298px;
-  overflow-x: hidden;
   overflow-y: auto;
 }
 
@@ -104,12 +106,6 @@ ol {
 }
 
 .content__list{
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.content__list-container {
   display: flex;
   flex-direction: column;
   gap: 30px;
